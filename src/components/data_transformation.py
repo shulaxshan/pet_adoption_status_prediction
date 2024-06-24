@@ -65,12 +65,12 @@ class DataTransformation:
             preprocessor_obj = self.get_data_tranformer_object()
 
             target_column_name="AdoptionLikelihood"
-            unwanted_column_name="PetID"
+            #unwanted_column_name="PetID"
 
-            input_feature_train_df = train_data.drop(columns=[target_column_name,unwanted_column_name],axis=1)
+            input_feature_train_df = train_data.drop(columns=[target_column_name],axis=1)
             target_feature_train_df = train_data[target_column_name]
 
-            input_feature_test_df = test_data.drop(columns=[target_column_name,unwanted_column_name],axis=1)
+            input_feature_test_df = test_data.drop(columns=[target_column_name],axis=1)
             target_feature_test_df = test_data[target_column_name]
 
             logging.info(f"Applying preprocessing object on training dataframe and testing dataframe")
