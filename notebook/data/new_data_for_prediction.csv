@@ -1,0 +1,14 @@
+PetID,PetType,Breed,AgeMonths,Color,Size,WeightKg,Vaccinated,HealthCondition,TimeInShelterDays,AdoptionFee,PreviousOwner
+500,Bird,Parakeet,103,Black,Large,26.35760774,1,0,43,335,0
+501,Rabbit,Labrador,8,Black,Medium,12.62558192,0,0,40,93,0
+502,Dog,Parakeet,153,Gray,Small,9.62440663,0,0,3,79,0
+503,Bird,Golden Retriever,91,Gray,Medium,20.77002066,0,0,59,37,1
+504,Bird,Golden Retriever,174,Gray,Medium,7.025923476,1,0,28,407,0
+505,Rabbit,Labrador,87,Brown,Small,24.1695083,0,0,46,227,0
+506,Dog,Poodle,158,Black,Large,24.28807766,1,0,64,482,1
+507,Dog,Labrador,175,Black,Medium,13.04258169,1,1,70,133,0
+508,Bird,Persian,177,White,Small,9.222892316,1,0,47,195,1
+509,Cat,Siamese,175,Black,Medium,9.232467266,1,0,14,465,1
+510,Bird,Poodle,84,Orange,Large,14.9864484,1,0,7,389,0
+511,Bird,Labrador,82,Brown,Large,21.86779752,1,0,74,281,0
+512,Bird,Parakeet,146,Gray,Large,11.40719204,1,0,79,250,0
